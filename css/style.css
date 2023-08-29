@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-/* colore di sfondo */
+/* Background color */
 body{
     background-color: #F6F8F9;
 }
@@ -14,7 +14,7 @@ body{
 .bg-color-white{
     background-color: white;
 }
-/* Posizione e dimensione del logo e intestazione */
+/* Title and Logo position and dimension */
 .title{
     padding: 20px;
     font: small-caps bolder 40px arial;
@@ -24,13 +24,13 @@ body{
     width: 60px;
     vertical-align: middle;
 }
-/* container per centrare gli elementi della pagina */
+/* container  */
 .container{
     margin: 0 auto;
     max-width: 620px;
 }
 
-/* barra con bottoni */
+/* Button bar */
 .button-bar{
     margin-top: 50px;
     padding: 20px 50px;
@@ -56,13 +56,33 @@ body{
     color:#CFD5D9;
 }
 
+/* list items reset */
 ul,li{
     list-style: none;
 }
+/* To do list  */
 .to-do-list{
     padding: 20px 50px;
     margin-top: 5px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+/*To do list goals, titles and labels  */
+.to-do-list__goals{
+    font: 17px bold;
+    padding: 5px 0px;
+}
+
+.to-do-list__titles{
+    font: 20px bolder;
+    padding-top: 15px;
+}
+
+.to-do-list__labels{
+    font: 12px bold;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 10px;
 }
