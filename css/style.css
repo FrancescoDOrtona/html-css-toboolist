@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* colore di sfondo */
+body{
+    background-color: #F6F8F9;
+}
+
+.bg-color-blue{
+    background-color: #47ADF1 ;
+}
+.bg-color-white{
+    background-color: white;
+}
+/* Posizione e dimensione del logo e intestazione */
+.title{
+    padding: 20px;
+    font: small-caps bold 40px sans-serif;
+    
+}
+.title__img{
+    width: 60px;
+    vertical-align: middle;
+}
+/* container per centrare gli elementi della pagina */
+.container{
+    margin: 0 auto;
+    max-width: 620px;
+}
+
+/* barra di navigazione */
+.button-bar{
+    margin-top: 50px;
+    padding: 20px 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.button-bar__task{
+    padding: 10px;
+}
