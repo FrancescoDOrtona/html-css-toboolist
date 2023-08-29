@@ -109,6 +109,7 @@ ul,li{
 
 /* Check and Cross simbol */
 .to-do-list__check{
+    font-size: 10px;
     color: rgb(7, 190, 7);
     border: 1px solid;
     border-radius: 50%;
@@ -116,6 +117,7 @@ ul,li{
 }
 
 .to-do-list__cross{
+    font-size: 10px;
     color: red;
     border: 1px solid;
     border-radius: 50%;
