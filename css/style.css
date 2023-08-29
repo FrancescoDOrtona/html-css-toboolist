@@ -17,7 +17,7 @@ body{
 /* Posizione e dimensione del logo e intestazione */
 .title{
     padding: 20px;
-    font: small-caps bold 40px sans-serif;
+    font: small-caps bolder 40px arial;
     
 }
 .title__img{
@@ -30,7 +30,7 @@ body{
     max-width: 620px;
 }
 
-/* barra di navigazione */
+/* barra con bottoni */
 .button-bar{
     margin-top: 50px;
     padding: 20px 50px;
@@ -39,5 +39,30 @@ body{
 }
 
 .button-bar__task{
-    padding: 10px;
+    padding: 5px 15px;
+    color: white;
+    font: 15px bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.button-bar__section{
+    padding: 5px 15px;
+    font: 15px bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+    border: 1px solid #CFD5D9;
+    color:#CFD5D9;
+}
+
+ul,li{
+    list-style: none;
+}
+.to-do-list{
+    padding: 20px 50px;
+    margin-top: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
 }
