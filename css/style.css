@@ -31,9 +31,11 @@ body{
     max-width: 620px;
 }
 
+.main-content{
+    padding: 40px 20px;
+}
 /* Button bar */
 .button-bar{
-    margin-top: 50px;
     padding: 20px 50px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
